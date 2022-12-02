@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Problem 2</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
     <body>
-        <h1>CountDown Timer</h1>
+        <h1 id="title">Countdown Timer</h1>
+        <br>
+        <br>
+        <form id="user-input">
+            <input id="Hour" value="" placeholder="Insert Hours here">
+            <input id="Minutes" value="" placeholder="Insert Minutes here">
+            <input id="Seconds" value="" placeholder="Insert Seconds here">
+            <button id="button">Start Countdown</button>
+        </form>
+        <br>
        <div id="show">
             <div class ="time"><p id="hour">0h</p></div>
             <div class ="time"><p id="minute">0m</p></div>
